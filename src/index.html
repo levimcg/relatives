@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+---
+<main class="wrapper">
+    <ol class="post-grid">
+        {% for post in site.posts %}
+            <li class="post-grid__item">
+                <a href="{{ post.url }}">
+                    <article class="post-teaser">
+                        <h1 class="post-teaser__title">{{ post.title }}</h1>
+                        <img src="{{ site.bucket }}/{{ post.title }}-thumbnail.jpg">
+                    </article>
+                </a>
+            </li>
+        {% endfor %}
+    </ol>
+</main>

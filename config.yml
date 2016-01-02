@@ -1,0 +1,19 @@
+title: Relatives
+description: A look at how shapes interact with each other and the space they occupy.
+
+# Makes for a cleaner file structure
+source: src/
+destination: _build
+
+# Exclude some common files and include things like .htaccess
+exclude: [README.md, node_modules]
+include: [.htaccess]
+
+# Jekyll defaults
+permalink: :title/
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# S3 bucket
+bucket: https://s3-us-west-2.amazonaws.com/levimcg-relatives

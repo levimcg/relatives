@@ -1,0 +1,72 @@
+/*----------------------------------------------------------
+
+    Header
+
+----------------------------------------------------------*/
+
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: .5em 1em;
+    position: relative;
+
+    @include clear-fix;
+}
+
+.site-logo {
+    margin: 0 auto;
+    width: 120px;
+}
+
+.site-nav {
+    position: absolute;
+    top: 1.15em;
+    right: .65em;
+}
+
+.site-nav__item--button {
+    display: inline-block;
+    padding: .35em;
+    line-height: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: .8125em;
+}
+
+.site-nav a {
+    color: $color-text;
+    font-weight: 300;
+    letter-spacing: .0425em;
+}
+
+@include media($bp-medium) {
+
+    .site-header {
+        padding: 2em 1em;
+    }
+
+    .site-logo {
+        width: 145px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: .8;
+    }
+
+    .site-nav {
+        top: 2.2em;
+        right: .85em;
+    }
+
+    .site-nav__item--button {
+        font-size: 1em;
+        padding: .5em;
+        @include trans(all, .2s);
+    }
+
+    .site-nav__item--button:hover {
+        background-color: $color-link;
+        color: #fff;
+        border-color: $color-link;
+    }
+
+}

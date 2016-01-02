@@ -1,0 +1,35 @@
+/*----------------------------------------------------------
+
+    Footer
+
+----------------------------------------------------------*/
+
+.site-footer {
+    padding: 3em 1em;
+    text-align: center;
+    color: #999;
+    background-color: #ffffff;
+    border-top: 1px solid #eee;
+}
+
+.site-footer__title {
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.site-footer__info {
+    font-size: .875em;
+    margin: 0;
+}
+
+.site-footer__logo {
+    width: 40px;
+    margin: 0 auto 1em auto;
+}
+
+@include media($bp-medium) {
+    .site-footer__info {
+        font-size: 1em;
+    }
+}

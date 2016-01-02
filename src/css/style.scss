@@ -1,0 +1,30 @@
+---
+---
+
+/*
+**      Global stuff
+**
+**      Headers, footers, and non-CSS producing stuff
+**      like Sass mixins and functions.
+**
+*/
+
+@import "global/variables";
+@import "global/mixins";
+@import "global/normalize";
+@import "global/base";
+@import "global/header";
+@import "global/footer";
+
+@import "global/shamefile";
+
+/*
+**      Components
+**
+**      Modular components and reusable stuff
+**
+*/
+
+// Example:
+//
+// @import "components/media-object";

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<main class="wrapper wrapper--post">
+    <article class="post">
+        <section class="post-content">
+            <img src="{{ site.bucket }}/{{ page.title }}.jpg">
+        </section>
+        <aside class="post-meta">
+            <div class="post-meta__info">
+                <h1 class="post__title">{{ page.title }}</h1>
+                <span class="post__separator">&mdash;</span>
+                <time class="post__date">{{ page.date | date: '%b %d, %Y'}}</time>
+            </div>
+            {% if page.prints %}
+                <div class="post-meta__action">
+                    <a class="button" href="{{ page.prints }}" target="_blank">Buy a print</a>
+                </div>
+            {% endif %}
+        </aside>
+    </article>
+    {% include article-nav.html %}
+</main>

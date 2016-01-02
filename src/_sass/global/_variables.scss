@@ -1,0 +1,14 @@
+// Typography defaults
+$base-font-size: 100%;
+$base-font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+$heading-font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
+// Colors
+$color-link: #005dee;
+$color-text: #31343c;
+$color-text-quiet: mix($color-text, white, 60%);
+
+// Decent starting breakpoints - Adjust/add to as needed
+$bp-small: 500px;
+$bp-medium: 800px;
+$bp-large: 1080px;
