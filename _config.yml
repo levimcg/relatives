@@ -10,7 +10,7 @@ permalink: :title/
 sass:
     sass_dir: _sass
     style: compressed
-markdown: kramdown
+# markdown: kramdown
 
 # S3 bucket
 bucket: https://s3-us-west-2.amazonaws.com/levimcg-relatives
