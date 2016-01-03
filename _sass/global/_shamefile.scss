@@ -41,11 +41,6 @@
 
 @include media($bp-medium) {
 
-    .post-grid {
-        // margin-left: -1em;
-        // margin-right: -1em;
-    }
-
     .post-grid__item {
         padding: 1em;
         width: 33.3333%;
