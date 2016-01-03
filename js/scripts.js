@@ -11,3 +11,22 @@ if ( style.webkitFlexWrap == '' || style.msFlexWrap == '' || style.flexWrap == '
 } else {
     doc.className += " no-flex";
 }
+
+/*
+**  Hides the images once the DOM is ready so that we can
+**  fade them in later
+*/
+$(document).ready(function() {
+    $(".post-teaser img, .post-content img").hide();
+});
+
+// Fade in the images once they are loaded
+$(window).on("load", function() {
+    $(".post-teaser img").each(function(index) {
+        $(this).delay(250 * index).fadeIn("slow");
+    });
+});
+
+$(window).on("load", function() {
+    $(".post-content img").fadeIn("slow");
+});
