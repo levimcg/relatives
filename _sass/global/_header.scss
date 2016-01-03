@@ -6,7 +6,6 @@
 
 .site-header {
     background-color: #ffffff;
-    border-bottom: 1px solid #eee;
     padding: .5em 1em;
     position: relative;
 
@@ -20,7 +19,7 @@
 
 .site-nav {
     position: absolute;
-    top: 1.15em;
+    top: 1em;
     right: .65em;
 }
 
@@ -43,6 +42,7 @@
 
     .site-header {
         padding: 2em 1em;
+        border-bottom: 1px solid #eee;
     }
 
     .site-logo {
@@ -53,7 +53,7 @@
     }
 
     .site-nav {
-        top: 2.2em;
+        top: 2.1em;
         right: .85em;
     }
 
