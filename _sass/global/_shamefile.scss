@@ -5,6 +5,7 @@
 ----------------------------------------------------------*/
 .wrapper {
     @include clear-fix;
+    min-height: 480px;
 }
 
 @include media($bp-medium) {
