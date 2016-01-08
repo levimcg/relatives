@@ -18,6 +18,9 @@ if ( style.webkitFlexWrap == '' || style.msFlexWrap == '' || style.flexWrap == '
 */
 $(document).ready(function() {
     $(".post-teaser img, .post-content img").hide();
+
+    var $copyrightYear = new Date().getFullYear();
+    $("#js-copyright").html("&copy;" + $copyrightYear);
 });
 
 // Fade in the images once they are loaded
