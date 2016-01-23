@@ -1,0 +1,36 @@
+/*----------------------------------------------------------
+    Banner
+
+    _banner.scss
+----------------------------------------------------------*/
+
+.banner {
+    padding: 1em;
+    // background-color: $color-link;
+    background: -webkit-gradient(linear, left top, right top, from(#1163eb), to(#25ab6e));
+    text-align: center;
+    position: relative;
+}
+
+.banner__message {
+    color: #fafafa;
+    margin: 0;
+
+    a {
+        color: #fafafa;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}
+
+.banner__dismiss {
+    color: #fafafa;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-weight: 300;
+
+    strong {
+        margin-right: .25em;
+    }
+}
