@@ -10,3 +10,4 @@ Relatives is a project I started to study how simple shapes interact with each o
 
 - [Instagram](https://www.instagram.com/levimcg/)
 - [Twitter](https://www.twitter.com/levimcg/)
+- [Buy prints](https://society6.com/levimcg/collection/relatives)
