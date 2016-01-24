@@ -36,14 +36,13 @@
 
 .post-grid__item {
     float: left;
-    width: 50%;
+    width: 33.3333%;
 }
 
 @include media($bp-medium) {
 
     .post-grid__item {
         padding: 1em;
-        width: 33.3333%;
     }
 }
 
