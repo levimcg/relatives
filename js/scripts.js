@@ -24,10 +24,14 @@ $(document).ready(function() {
 });
 
 // Fade in the images once they are loaded
+// $(window).on("load", function() {
+//     $(".post-teaser img").each(function(index) {
+//         $(this).delay(250 * index).fadeIn("slow");
+//     });
+// });
+
 $(window).on("load", function() {
-    $(".post-teaser img").each(function(index) {
-        $(this).delay(250 * index).fadeIn("slow");
-    });
+    $(".post-teaser img").fadeIn("slow");
 });
 
 $(window).on("load", function() {
