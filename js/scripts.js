@@ -23,16 +23,13 @@ $(document).ready(function() {
     $("#js-copyright").html("&copy;" + $copyrightYear);
 });
 
-// Fade in the images once they are loaded
-// $(window).on("load", function() {
-//     $(".post-teaser img").each(function(index) {
-//         $(this).delay(250 * index).fadeIn("slow");
-//     });
-// });
-
+//Fade in the images once they are loaded
 $(window).on("load", function() {
-    $(".post-teaser img").fadeIn("slow");
+    $(".post-teaser img").each(function(index) {
+        $(this).delay(150 * index).fadeIn("slow");
+    });
 });
+
 
 $(window).on("load", function() {
     $(".post-content img").fadeIn("slow");
