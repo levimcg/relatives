@@ -9,7 +9,8 @@ title: Home
                 <a href="{{ post.url }}">
                     <article class="post-teaser">
                         <h1 class="post-teaser__title">{{ post.title }}</h1>
-                        <img src="{{ site.bucket }}/{{ post.title }}-thumbnail.jpg">
+                        <!-- <img src="{{ site.bucket }}/{{ post.title }}-thumbnail.jpg"> -->
+                        <img class="lazyload" data-src="{{ site.bucket }}/{{ post.title }}-thumbnail.jpg" alt="Relatives {{ post.title }}">
                     </article>
                 </a>
             </li>

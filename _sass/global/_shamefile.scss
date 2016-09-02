@@ -10,12 +10,12 @@
 
 @include media($bp-medium) {
     .wrapper {
-        max-width: 1040px;
+        max-width: 1380px;
         margin: 5em auto;
     }
 
     .wrapper--post {
-        max-width: 900px;
+        max-width: 1040px;
         padding: 0 2em;
     }
 }
@@ -36,13 +36,14 @@
 
 .post-grid__item {
     float: left;
-    width: 33.3333%;
+    width: 50%;
 }
 
 @include media($bp-medium) {
 
     .post-grid__item {
         padding: 1em;
+        width: 33.333%;
     }
 }
 
@@ -261,4 +262,13 @@
         }
 
     }
+}
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
 }
